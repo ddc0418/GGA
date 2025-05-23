@@ -1,1 +1,76 @@
-# GGA
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>葉葉的自我介紹</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #f8f8f2;
+      font-family: "微軟正黑體", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .intro-box {
+      background: #2a2a2a;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 600px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      animation: fadeInUp 1.5s ease;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #ff79c6;
+    }
+
+    p {
+      margin: 12px 0;
+      line-height: 1.6;
+    }
+
+    iframe {
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="intro-box">
+    <h1>你好，我是葉葉</h1>
+    <p><strong>職業：</strong>大睡特睡想怎麼睡就怎麼睡</p>
+    <p><strong>技能：</strong>什麼都不會除了做愛</p>
+    <p><strong>經歷：</strong>經歷的太多所以看淡一切</p>
+    <p><strong>聯絡方式：</strong>認識我不需要聯絡方式只需帶我回家</p>
+  </div>
+
+  <!-- 周杰倫 - 給我一首歌的時間 (YouTube內嵌) -->
+  <iframe width="360" height="215"
+    src="https://www.youtube.com/embed/gYQ6STVxydY?autoplay=1&mute=1&loop=1&playlist=gYQ6STVxydY"
+    title="周杰倫 - 給我一首歌的時間"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
+
